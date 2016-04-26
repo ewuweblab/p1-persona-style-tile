@@ -3,19 +3,67 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+    background: red;
+}
 
+.color-2 {
+    background: white;
+}
+
+.color-3 {
+    background: blue;
+}
 
 /* Textures or Patterns*/
-
+.pattern-1 {
+    background: url("http://static.wixstatic.com/media/093f35_e61fde8d736d4eb883870cbc411accc5.gif") no-repeat;
+    background-size: cover;
+}
 
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+    border: none;
+}
 
 /* Navigation */
+nav li {
+    list-style: none;
+}
 
+nav a:link {
+    color: blue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: red;
+} 
+
+button {
+    padding: 1em;
+    background: blue;
+    color: white;
+    border: red solid 4px;
+    border-radius: 10px;  
+}
 
 /* Typography */
+
+h1,h2 {
+    color: red;
+    font-family: 'Henny Penny', cursive;
+}
+
+p {
+    font-family: 'Henny Penny', cursive;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    letter-spacing: 4px;
+}
 
